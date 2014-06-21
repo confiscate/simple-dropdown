@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+.menu.open {
+  display: block;
+}
+
+.menu-item {
+  width: 200px;
+  height: 70px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: arial;
+  position: relative;
+}
+
+.menu-item > span {
+  line-height: 70px;
+}
+
+.child {
+  margin-left: 200px;
+}
+
+.pink {
+  background-color: #ffadad;
+}
+
+.violet {
+  background-color: #ffadf9;
+}
+
+.green {
+  background-color: #adffbd;
+}
